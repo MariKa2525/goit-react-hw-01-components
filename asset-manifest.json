@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MariKa2525/goit-react-hw-01-components.git/static/css/main.7acaea2f.css",
-    "main.js": "/MariKa2525/goit-react-hw-01-components.git/static/js/main.e64006c2.js",
+    "main.css": "/MariKa2525/goit-react-hw-01-components.git/static/css/main.0daa9323.css",
+    "main.js": "/MariKa2525/goit-react-hw-01-components.git/static/js/main.5d692de4.js",
     "index.html": "/MariKa2525/goit-react-hw-01-components.git/index.html",
-    "main.7acaea2f.css.map": "/MariKa2525/goit-react-hw-01-components.git/static/css/main.7acaea2f.css.map",
-    "main.e64006c2.js.map": "/MariKa2525/goit-react-hw-01-components.git/static/js/main.e64006c2.js.map"
+    "main.0daa9323.css.map": "/MariKa2525/goit-react-hw-01-components.git/static/css/main.0daa9323.css.map",
+    "main.5d692de4.js.map": "/MariKa2525/goit-react-hw-01-components.git/static/js/main.5d692de4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.e64006c2.js"
+    "static/css/main.0daa9323.css",
+    "static/js/main.5d692de4.js"
   ]
 }
