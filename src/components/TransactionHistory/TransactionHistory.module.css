@@ -16,7 +16,7 @@ th, td {
     font-weight: 400;
     text-transform: capitalize;
 }
- 
+
 th {
     padding-top:22px; 
     text-shadow: 1px 1px 1px #fff;
@@ -25,7 +25,7 @@ th {
     font-size: 25px;
     font-weight: 400;
 }
- 
+
 td {
     border-top:1px solid #e0e0e0; 
     border-right:1px solid #e0e0e0;
