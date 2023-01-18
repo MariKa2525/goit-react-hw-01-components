@@ -1,15 +1,14 @@
 .profile {
-    width: 400px;
+    width: 600px;
     margin: auto;
     margin-top: 100px;
-
+    padding-top: 30px;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.14) 0px 1px 1px, rgba(0, 0, 0, 0.2) 0px 2px 1px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.20), 0 0 4px rgba(0, 0, 0, 0.20), 0 0 4px rgba(0, 0, 0, 0.20);
     border-radius: 4px;
 }
 
 .description {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +18,10 @@
 }
 
 .avatar {
-    width: 206px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50px;
+    background-color: azure;
 }
 
 .name {
@@ -46,14 +48,14 @@
 }
 
 .stats {
+    width: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 55px;
     
     list-style: none;
-    width: 100%;
-    padding: 5px;
+    padding: 40px 20px;
     margin-top: 60px;
     margin-bottom: 0;
     text-align: center;
@@ -61,7 +63,7 @@
 }
 
 .list {
-    border-right: 2px solid grey;
+    /* border-right: 2px solid grey; */
     padding: 0;
     padding-right: 17px;
 }
