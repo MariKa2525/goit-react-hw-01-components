@@ -48,24 +48,22 @@
 }
 
 .stats {
-    width: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 55px;
-    
+    /* gap: 55px; */
+    padding: 0;
     list-style: none;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     margin-top: 60px;
     margin-bottom: 0;
     text-align: center;
-    background-color: rgb(233, 237, 236);
+    background-color: rgba(223, 219, 219, 0.363);
 }
 
 .list {
-    /* border-right: 2px solid grey; */
-    padding: 0;
-    padding-right: 17px;
+    border: 1px solid #afb1b8;
+    padding: 40px;
 }
 
 .label {

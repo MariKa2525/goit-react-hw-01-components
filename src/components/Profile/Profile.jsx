@@ -34,10 +34,28 @@ export default function Profile({ username, tag, location, avatar, stats }) {
 }
 
 Profile.propTypes = {
-      username: PropTypes.string.isRequired,
-      tag: PropTypes.string.isRequired,
-      location: PropTypes.string.isRequired,
-      stats: PropTypes.object.isRequired,
-      avatar: PropTypes.string.isRequired      
-    }
-  
+  username: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  stats: 
+      PropTypes.shape({
+          followers: PropTypes.number.isRequired,
+          views: PropTypes.number.isRequired,
+          likes: PropTypes.number.isRequired,
+      }).isRequired
+};
+
+// Profile.propTypes = {
+//   username: PropTypes.string.isRequired,
+//   tag: PropTypes.string.isRequired,
+//   location: PropTypes.string.isRequired,
+//   avatar: PropTypes.string.isRequired,
+//   stats: PropTypes.objectOf(
+//       PropTypes.shape({
+//           followers: PropTypes.string.isRequired,
+//           views: PropTypes.number.isRequired,
+//           likes: PropTypes.number.isRequired,
+//       })
+//   ).isRequired
+// };
